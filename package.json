@@ -1,6 +1,6 @@
 {
   "name": "vatsal-whatsapp",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lightweight WhatsApp Web automation via whatsapp-web.js, QR socket communication, and bulk messaging.",
   "main": "index.js",
   "type": "commonjs",
