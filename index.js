@@ -1,5 +1,7 @@
+//index.js
 const giveQRCode = require("./src/core/qrManager");
-const connectionStatus = require("./src/core/statusManager");
+const connectionStatus = require("./src/core/connectionStatus");
+const {sendBulkMessage} = require("./src/features/sendBulkMessage");
 
 // In future, you can add more features here
 // const sendMessage = require("./features/sendMessage");
@@ -7,5 +9,5 @@ const connectionStatus = require("./src/core/statusManager");
 module.exports = {
   giveQRCode,
   connectionStatus,
-  // sendMessage
+  sendBulkMessage,
 };
