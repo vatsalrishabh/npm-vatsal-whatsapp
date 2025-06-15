@@ -1,0 +1,39 @@
+{
+  "name": "vatsal-whatsapp",
+  "version": "1.0.1",
+  "description": "Lightweight WhatsApp Web automation via whatsapp-web.js, QR socket communication, and bulk messaging.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vatsalrishabh/npm-vatsal-whatsapp.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "whatsapp-web",
+    "qr",
+    "socket.io",
+    "express",
+    "puppeteer",
+    "messaging",
+    "automation",
+    "vatsal"
+  ],
+  "author": "Vatsal Rishabh Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vatsalrishabh/npm-vatsal-whatsapp/issues"
+  },
+  "homepage": "https://github.com/vatsalrishabh/npm-vatsal-whatsapp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.1",
+    "socket.io": "^4.7.2",
+    "whatsapp-web.js": "^1.22.1",
+    "puppeteer": "^22.5.0"
+  }
+}
